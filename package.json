@@ -1,0 +1,45 @@
+{
+  "name": "ats-kiosk-fe",
+  "version": "2.5.0",
+  "organization": "Технически университет - София",
+  "description": "ДИПЛОМНА РАБОТА - \"Софтуер за следене на присъствията на работници.\"",
+  "author": {
+    "name": "Ismail Saleh",
+    "url": "https://github.com/IsmailSalehCode"
+  },
+  "main": "build/main/main.js",
+  "private": true,
+  "scripts": {
+    "electron-rebuild": "electron-rebuild @pokusew/pcsclite",
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js && electron-builder",
+    "build:win": "node scripts/build.js && electron-builder --win",
+    "build:mac": "node scripts/build.js && electron-builder --mac",
+    "build:linux": "node scripts/build.js && electron-builder --linux"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "@tockawa/nfc-pcsc": "^0.9.3",
+    "axios": "^1.7.2",
+    "core-js": "^3.29.0",
+    "dexie": "^3.2.4",
+    "nfc-pcsc": "^0.8.1",
+    "vue": "^3.3.8",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.6.0",
+    "@vitejs/plugin-vue": "^4.6.2",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "electron": "^27.1.0",
+    "electron-builder": "^24.2.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.60.0",
+    "typescript": "^5.3.3",
+    "vite": "^4.5.2",
+    "vite-plugin-vuetify": "^1.0.0",
+    "wait-on": "^7.0.1"
+  }
+}
