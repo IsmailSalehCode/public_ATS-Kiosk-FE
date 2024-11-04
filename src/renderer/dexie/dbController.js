@@ -1,6 +1,6 @@
 import { db } from "./db";
 
-function handleErr(err) {
+function logErr(err) {
   window.electronAPI.addLog(err);
 }
 
@@ -9,7 +9,8 @@ async function reinitTable(tableName) {
     const result = await db.table(tableName).clear();
     return result;
   } catch (err) {
-    return handleErr(err);
+    logErr(err);
+    return err;
   }
 }
 
@@ -42,7 +43,8 @@ async function getActivities() {
     const activities = await db.activities.toArray();
     return activities;
   } catch (err) {
-    return handleErr(err);
+    logErr(err);
+    return err;
   }
 }
 
@@ -56,7 +58,8 @@ async function addNewActivity(data) {
       content: data,
     });
   } catch (err) {
-    return handleErr(err);
+    logErr(err);
+    return err;
   }
 }
 
@@ -65,7 +68,8 @@ async function deleteActivites(ids) {
     const result = await db.activities.bulkDelete(ids);
     return result;
   } catch (err) {
-    return handleErr(err);
+    logErr(err);
+    return err;
   }
 }
 
