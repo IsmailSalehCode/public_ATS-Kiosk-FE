@@ -1,3 +1,11 @@
+# Architecture
+![Architecture](https://github.com/user-attachments/assets/a05ac051-027d-492f-b8ad-3eb8f3af2076)
+
+
+# Presentation
+[ATS.pptx](https://github.com/user-attachments/files/18040857/ATS.pptx)
+
+
 # Documentation [BG]
 [Дипломна работа; ATS; Исмаил Салех.pdf](https://github.com/user-attachments/files/18040853/ATS.pdf)
 
@@ -34,11 +42,3 @@ When signing an employment contract, construction workers and managers agree to 
 ### 3. Can we consider a global errorhandler for Vue.js so that we don't have to catch errors with try-catch blocks?
 
 **Answer**: We could consider a global errorhandler `Vue.config.errorHandler`. However I prefer the precision, flexibility and readability of try-catch-finally blocks. Although I don't use a global errorhandler, I reuse logic by importing errHandler files.
-
-
-# Presentation
-[ATS.pptx](https://github.com/user-attachments/files/18040857/ATS.pptx)
-
-
-# Architecture
-![Architecture](https://github.com/user-attachments/assets/a05ac051-027d-492f-b8ad-3eb8f3af2076)
