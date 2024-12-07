@@ -15,10 +15,6 @@ This repository has the code for one of three software products developed for an
 ![Architecture](https://github.com/user-attachments/assets/a05ac051-027d-492f-b8ad-3eb8f3af2076)
 
 
-# Presentation
-[ATS.pptx](https://docs.google.com/presentation/d/1h-ehkfDv_rdP3KRnAm30EMQIyLUszYTu/edit?usp=drive_link&ouid=108639976607761386658&rtpof=true&sd=true)
-
-
 # Documentation [BG]
 [Дипломна работа; ATS; Исмаил Салех.pdf](https://github.com/user-attachments/files/18040853/ATS.pdf)
 
