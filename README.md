@@ -11,7 +11,7 @@ This repository has the code for one of three software products developed for an
 <p><a href="https://github.com/IsmailSalehCode/public_ATS-BE">Back end</a>- the core of ATS. A Node.js app, which communicated with a MySQL database using Sequelize ORM. Both the back-end application and the website are hosted on the same shared-hosting server.</p><br>
 
 
-# FE1 Architecture
+# ATS-Kiosk-FE Architecture
 ![Architecture](https://github.com/user-attachments/assets/a05ac051-027d-492f-b8ad-3eb8f3af2076)
 
 
