@@ -1,4 +1,17 @@
-# Architecture
+# Description
+This repository has the code for one of three software products developed for an Attendance Tracking System- my Master's diploma project in Computer and Software Engineering.
+
+<p><a href="https://github.com/IsmailSalehCode/public_ATS-Kiosk-FE">A desktop application</a> designated for kiosk installation. Workers use it to scan their NFC tags and record their activities- entering or leaving the construction site.</p>
+
+<p><a href="https://github.com/IsmailSalehCode/public_ATS-FE">A website</a> for authenticated personnel to: 
+  <ul><li>Specify a time frame and analyze workers' total work durations.</li>
+  <li>Execute CRUD operations on data (attendance-tracked personnel, attendance tracking tags, kiosks & attendance entries).</li>
+  <li>Users with higher-level authorization (admins) can manage the platform's users through additional CRUD operations.</li></ul></p>
+
+<p><a href="https://github.com/IsmailSalehCode/public_ATS-BE">Back end</a>- the core of ATS. A Node.js app, which communicated with a MySQL database using Sequelize ORM. Both the back-end application and the website are hosted on the same shared-hosting server.</p><br>
+
+
+# FE1 Architecture
 ![Architecture](https://github.com/user-attachments/assets/a05ac051-027d-492f-b8ad-3eb8f3af2076)
 
 
